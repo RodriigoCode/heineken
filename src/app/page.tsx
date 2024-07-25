@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="relative w-full h-screen overflow-hidden">
       <video
-        src="/fire.mp4" // Caminho relativo ao diretório `public`
+        src="/fire.mp4" // Caminho para o arquivo de vídeo no diretório `public`
         autoPlay
         muted
         loop
@@ -13,7 +13,7 @@ export default function Home() {
       />
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <Image
-          src="/logo.png" // Caminho relativo ao diretório `public`
+          src="/logo.png" // Caminho para a imagem no diretório `public`
           alt="Logo"
           width={600} // Ajuste o tamanho conforme necessário
           height={600} // Ajuste a altura conforme necessário
