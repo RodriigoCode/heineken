@@ -18,10 +18,10 @@ const TryoutPage = () => {
           Join Discord and Form | Tryout Season starting soon
         </p>
         <div className="flex justify-center gap-5">
-          <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="text-black">
+          <a href="https://discord.gg/7hnmg3tq" target="_blank" rel="noopener noreferrer" className="text-black">
             <FaDiscord size={60} />
           </a>
-          <a href="https://docs.google.com/spreadsheets" target="_blank" rel="noopener noreferrer" className="text-black">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfP4rRakC_RNfxfacwlxFGj3spKNf5gQI7XfXTQoZL5N1o8_g/viewform" target="_blank" rel="noopener noreferrer" className="text-black">
             <FaSheetPlastic size={50} />
           </a>
         </div>
