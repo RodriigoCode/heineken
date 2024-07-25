@@ -1,30 +1,22 @@
+import React from 'react';
 import Image from 'next/image';
-import fire from '../../public/fire.mp4';
-import logo from '../../public/logo.png'; // Importe a logo
 
 export default function Home() {
   return (
-    <main style={{ position: 'relative', width: '100%', height: '100vh' }}>
+    <main className="relative w-full h-screen overflow-hidden">
       <video
-        src={fire}
+        src="/fire.mp4" // Caminho relativo ao diretório `public`
         autoPlay
         muted
         loop
-        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+        className="absolute top-0 left-0 w-full h-full object-cover"
       />
-      <div
-        style={{
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-        }}
-      >
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <Image
-          src={logo}
+          src="/logo.png" // Caminho relativo ao diretório `public`
           alt="Logo"
-          width={600} // Ajuste o tamanho da logo conforme necessário
-          height={600} // Ajuste a altura da logo conforme necessário
+          width={600} // Ajuste o tamanho conforme necessário
+          height={600} // Ajuste a altura conforme necessário
         />
       </div>
     </main>
