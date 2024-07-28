@@ -24,7 +24,7 @@ export default function Home() {
             className="rounded-md"
           />
         </div>
-        <p className="text-lg mt-6">Cinco vagas, Adamm está duas vezes.(depois concerto)</p>
+        <p className="text-lg mt-6">Seis vagas, Adamm e Bruh estão duas vezes.(depois concerto)</p>
         <p className="text-lg mt-6">Tryouts (01/02) | Marcação - Santos</p>
       </div>
     </main>
