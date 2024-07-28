@@ -12,19 +12,20 @@ export default function Home() {
         className="absolute top-0 left-0 w-full h-full object-cover"
       />
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white bg-opacity-80 p-8 rounded-lg shadow-lg text-center">
-        <h1 className="text-4xl font-bold mb-4">(sem tabela porque o miller é viado)</h1>
+        <h1 className="text-4xl font-bold mb-4">Selecionados</h1>
         <p className="text-lg mb-6">Parabéns aos selecionados, logo irão receber informações no privado.
         </p>
         <div className="flex justify-center">
           <Image
-            src="/.png"
+            src="/resultados.png"
             alt="detalhes da imagem: Façam # no chat #MillerViado"
             width={600}
             height={600}
             className="rounded-md"
           />
         </div>
-        <p className="text-lg mt-6">Os não-selecionados, vão ter uma surpresa logo logo, até daqui a pouco :)</p>
+        <p className="text-lg mt-6">Cinco vagas, Adamm está duas vezes.(depois concerto)</p>
+        <p className="text-lg mt-6">Tryouts (01/02) | Marcação - Santos</p>
       </div>
     </main>
   );
