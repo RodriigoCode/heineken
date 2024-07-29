@@ -12,7 +12,7 @@ export default function Navbar() {
       </div>
       <div className="flex space-x-4">
         <Link href='/tryout' className="text-white hover:text-white transition-transform transform hover:scale-105">Tryout</Link>
-        <Link href='/resultados' className="text-white hover:text-white transition-transform transform hover:scale-105">Resultados</Link>
+        <Link href='/jersey' className="text-white hover:text-white transition-transform transform hover:scale-105">Jersey</Link>
         <Link href='/socialmedia' className="text-white hover:text-white transition-transform transform hover:scale-105">Social Media</Link>
       </div>
     </nav>
